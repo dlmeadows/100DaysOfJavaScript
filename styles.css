@@ -18,7 +18,7 @@
 }
 
 html {
-  font-size: 10px;
+  font-size: 16px;
 }
 
 body {
@@ -47,41 +47,18 @@ img {
 .counter-div {
   width: 42rem;
   border: 1px solid var(--grey);
-  padding: 1rem;
-  background-color: #bfe3d4;
+  padding: 3rem;
+  background-color: orange;
   color: var(--white);
-  text-align: center;
+  text-align: left;
   border-radius: 5px;
 }
 
 .counter-div > * {
   margin-bottom: 2rem;
+  font-size: 1.6rem;
 }
 
 .count {
   font-size: 4rem;
-}
-
-.buttons button {
-  padding: 5px;
-  margin: 0;
-  color: var(--white);
-  font-weight: 700;
-  border: none;
-  outline: none;
-  border-radius: 3px;
-  cursor: pointer;
-}
-
-button.subtract {
-  background-color: orangered;
-}
-
-button.reset {
-  background-color: var(--white);
-  color: var(--black);
-}
-
-button.add {
-  background-color: green;
 }
