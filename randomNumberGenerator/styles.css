@@ -30,6 +30,12 @@ p {
   line-height: 1.5;
 }
 
+header {
+  text-align: center;
+  color: #ffffff;
+  padding: 3rem;
+}
+
 img {
   width: 100%;
 }
